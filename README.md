@@ -93,9 +93,3 @@ Archivo STL creado correctamente.
 ## Ver y usar el STL
 
 El archivo `portalapices_hexagonal.stl` se crea en la carpeta desde donde ejecutes el programa. Puedes abrirlo en cualquier visor o laminador, por ejemplo Ultimaker Cura, PrusaSlicer, Bambu Studio o el visor 3D de Windows.
-
-## Agregar nuevas formas
-
-1. Crea una clase que herede de `Forma3D`.
-2. Implementa `generarTriangulos()` y `calcularCajaDelimitadora()`.
-3. Agrégala en `Main` con `fabrica.agregarForma(...)`.
